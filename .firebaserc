@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "psykopomp-fdc99"
+    "default": "psykopomp-fdc99",
+    "psykopomp": "psykopomp-fdc99"
   }
 }
