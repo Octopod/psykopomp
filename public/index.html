@@ -1,36 +1,48 @@
+<!--
+Purpose: psykopompscenkonst.se
+Last updated: 2017-07-02
+-->
 <!DOCTYPE html>
 <html>
+
   <head>
+    <meta charset="utf-8">
+    <title>Psykopomp scenkonst</title>
+    <meta name="description" content="Psykopomp scenkonst">
+    <meta name="author" content="Psykopomp scenkonst">
 
-
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <![endif]-->
   </head>
+
   <body>
 
-<form>
-  Email:<br>
-  <input id="user-input" type="email"><br>
-  <button id="subscribe-btn">Subscribe</button>
+    <form>
+      Email:<br>
+      <input id="user-input" type="email"><br>
+      <button id="subscribe-btn">Subscribe</button>
+    </form>
 
-</form>
+    
+    <!-- START OF SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAFbKpqX7fUFUpvBP6ewxqxDwPDzKmO5cc",
+      authDomain: "psykopomp-fdc99.firebaseapp.com",
+      databaseURL: "https://psykopomp-fdc99.firebaseio.com",
+      projectId: "psykopomp-fdc99",
+      storageBucket: "psykopomp-fdc99.appspot.com",
+      messagingSenderId: "873889701075"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <!-- END OF SCRIPTS -->
 
-  
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAFbKpqX7fUFUpvBP6ewxqxDwPDzKmO5cc",
-    authDomain: "psykopomp-fdc99.firebaseapp.com",
-    databaseURL: "https://psykopomp-fdc99.firebaseio.com",
-    projectId: "psykopomp-fdc99",
-    storageBucket: "psykopomp-fdc99.appspot.com",
-    messagingSenderId: "873889701075"
-  };
-  firebase.initializeApp(config);
-</script>
-
-
-  </body>
+</body>
 </html>
