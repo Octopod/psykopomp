@@ -15,6 +15,7 @@ console.log( "Loading..." );
     	updates['/interest-signup/emails/' + newPostKey] = input;
 
 		firebase.database().ref().update(updates);
+        loadPage(signup.html);
 
     });
 
