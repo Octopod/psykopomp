@@ -1,0 +1,92 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('/textures/cream_dust.png') no-repeat center center fixed;
+    /*background-color: #D1C9E5;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.content {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+
+  margin: -70px 0 0 -170px;
+    }
+
+
+.container{
+	background-image: linear-gradient(to top, rgba(205, 156, 242, 0.40) 0%, rgba(246, 255, 255, 0.71) 100%);
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	text-align: center;
+	border-radius: 5px;
+	margin: 3em auto;
+	background: rgba(255, 255, 255, 0.95);
+	height: 300px;
+	width: 480px;
+	padding: 1em;
+	
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;	
+}
+
+
+.wrapper{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 90%;
+}
+
+#row1{
+
+}
+
+#row2{
+}
+
+#row3{
+  
+}
+
+.row-format{
+	top: 10px;
+}
+
+.footer{
+  background-color: purple;
+  bottom: 0px;
+  position: absolute;
+  width: 100vw;
+}
+
+
