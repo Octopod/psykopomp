@@ -7,15 +7,44 @@
 
 /* Global Styles */
 
+@font-face {
+    font-family: 'procionoregular';
+    src: url('/css/Prociono-Regular-webfont.woff');
+}
+
+@font-face{
+    font-family: brush;
+    src: url('/css/AlexBrush-Regular.ttf');
+}
+
+@font-face{
+    font-family: cutepunk;
+    src: url('/css/Cutepunk_Regular.otf');
+}
+
+#prociono{
+        font-family: procionoregular;
+}
+
+#brush{
+        font-family: brush;
+}
+
+
 html,
 body {
     width: 100%;
     height: 100%;
+    font-size: 16px;
+
 }
 
-body {
-    font-family: 'procionoregular', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ins{
+    text-decoration: none;
+    font-style: italic;
+    color: #ffe6cc;
 }
+
 
 a:link { color:#666666;
 text-decoration:none;
@@ -42,7 +71,6 @@ text-decoration : none;
 }
 
 .text-vertical-center h1 {
-    font-size: 4.5em;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -51,11 +79,27 @@ text-decoration : none;
 
 /* Custom Button Styles */
 
-.btn-dark {
+.btn-signup {
+    color: white;
+    border: none;
+    border-radius: 17px;
+    background-color: #ffa64d;
+    cursor: pointer;
+}
+
+.btn-signup:hover,
+.btn-signup:focus,
+.btn-signup:active {
     color: #fff;
+    background-color: #ff9933;
+}
+
+.btn-dark {
+    color: #d87341;
     border: none;
     border-radius: 17px;
     background-color: rgba(0, 0, 0, .4);
+    cursor: pointer;
 }
 
 .btn-dark:hover,
@@ -131,7 +175,6 @@ text-decoration : none;
 }
 
 .sidebar-nav > .sidebar-brand {
-    font-size: 18px;
     line-height: 55px;
     height: 55px;
 }
@@ -163,7 +206,6 @@ text-decoration : none;
 }
 
 .toggle {
-    font-size: 1em;
     margin: 5px 5px 0 0;
     padding: 15px 20px;
 }
@@ -177,6 +219,7 @@ text-decoration : none;
     width: 100%;
     height: 100%;
     background: url(../textures/regal.png) repeat center center scroll;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
@@ -206,13 +249,11 @@ text-decoration : none;
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../textures/noisy_net.png) repeat center center scroll;
-
+    background: url(../textures/tweed.png) repeat center center scroll;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#info-text {
-    font-size: 16px;
-}
+
 
 
 /* Portfolio */
@@ -266,6 +307,7 @@ text-decoration : none;
 footer {
     padding-top: 30px;
     background: url(../textures/regal.png) repeat center center scroll;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
