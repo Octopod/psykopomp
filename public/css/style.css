@@ -5,7 +5,7 @@
 
 /* Global Styles */
 
-@font-face{
+@font-face {
     font-family: cutepunk;
     src: url('/css/Cutepunk_Regular.otf');
 }
@@ -18,20 +18,21 @@ body {
     font-size: 16px;
 }
 
-ins{
+ins {
     text-decoration: none;
     font-style: italic;
     color: #ffe6cc;
 }
 
 
-a:link { color:#666666;
-text-decoration:none;
+a:link { 
+    color:#666666;
+    text-decoration:none;
 }
 
 a:link:hover {
-color:#000000;
-text-decoration : none;
+    color:#000000;
+    text-decoration : none;
 }
 
 #about-scroll {
